@@ -6,9 +6,11 @@
         <title>Home | PACit</title>
     </head>
 
-    <body>
+    <body style = "display: none;">
         <div id = "PACit2"><a href = "index.html"><img src = "PACit2.PNG" alt = "Mini Image"/></a></div>
         <div class="topnav">
+            <a href = "https://facebook.com" target = "_blank"><h4><img src = "Facebook.png" width = "20px" height = "20px"></h4></a>
+            <a href = "https://twitter.com/PACit37638455" target = "_blank"><h4><img src = "Twitter.png" width = "20px" height = "20px"></h4></a>
             <a href = "https://www.instagram.com/pac.it/" target="_blank"><h4><img src = "Instagram.PNG" width = "20px" height = "20px"></h4></a>
             <a href="contactUs.html"><h4>Contact Us</h4></a>
             <a href="officers.html"><h4>Officers</h4></a>
@@ -34,5 +36,16 @@
         <br/>
         <br/>
         <div class = "footer"><p><b>&copy; PACit 2020 ~ Website Made By: <a href = "officers.html">Rushi Yalamanchili</a></b></p></div>
+       
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('body').fadeToggle(2000);
+                $('hr').toggle(0).delay(1000).toggle(1000);
+                $('blockquote').slideToggle(0).delay(1000).slideToggle(1000);
+                $('h3').slideToggle(0).delay(1000).slideToggle(1000);
+                $('.footer').slideToggle(0).delay(3000).slideToggle(1000);
+            });
+        </script>
     </body>
 </html>

@@ -112,8 +112,6 @@ p {
     margin-right: 5%;
     margin-left: 25%;
 } 
-
- 
      
 pre { 
     font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif; 
@@ -131,7 +129,7 @@ pre {
     padding-top: 10%;
     display: block;
     margin-left: auto;
-    z-index: 1;
+    z-index: -1;
     margin-right: auto;
 }
 
